@@ -6,6 +6,9 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: #000;
@@ -17,8 +20,19 @@ a {
   border-radius: 5px;
   background: #fd6e0a;
   padding: 10px 20px;
-  border: 2px solid #fd6e0a;
+  border: 1px solid #fd6e0a;
   cursor: pointer;
+}
+.section-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-desc {
+    color: #757575;
+font-size: 18px;
+font-weight: 400;
+margin: 30px 0;
 }
 /* Header styles */
 header {
@@ -107,4 +121,30 @@ nav button:hover {
 .hero-img {
   width: 500px;
   margin-left: 100px;
+}
+/* About section styles */
+#about {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin-top: 10vh;
+}
+.about-contant {
+  width: 80%;
+  margin: auto;
+  padding: 110px 0px;
+  text-align: center;
+}
+.about-info {
+    display: flex;
+    gap: 20px;
+}
+.info-title {
+    color: #757575;
+font-weight: 400;
+}
+.info {
+    color: #474747;
+font-weight: 600;
 }
